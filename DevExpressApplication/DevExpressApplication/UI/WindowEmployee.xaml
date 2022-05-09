@@ -6,7 +6,7 @@
     xmlns:Model="clr-namespace:DevExpressApplication.Model" xmlns:ComponentModel="clr-namespace:System.ComponentModel;assembly=WindowsBase" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
     xmlns:System="clr-namespace:System;assembly=mscorlib"
     x:Class="DevExpressApplication.WindowEmployee"
-    Title="Demo UI" Height="800" Width="1000" Loaded="ThemedWindow_Loaded" TitleAlignment="Center" WindowStyle="SingleBorderWindow" WindowKind="Auto" Icon="{dx:DXImage SvgImages/XAF/FilterEditor_User.svg}"
+    Title="Demo UI" Height="800" Width="1000" Loaded="ThemedWindow_Loaded" TitleAlignment="Center" WindowStyle="ToolWindow" WindowKind="Auto" Icon="{dx:DXImage SvgImages/XAF/FilterEditor_User.svg}" WindowStartupLocation="CenterScreen"
     >
 
     <dx:ThemedWindow.Resources>
@@ -27,11 +27,12 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="8*"/>
             <ColumnDefinition Width="66*"/>
-            <ColumnDefinition Width="231*"/>
-            <ColumnDefinition Width="80*"/>
-            <ColumnDefinition Width="82*"/>
-            <ColumnDefinition Width="288*" />
-            <ColumnDefinition Width="178*"/>
+            <ColumnDefinition Width="233*"/>
+            <ColumnDefinition Width="81*"/>
+            <ColumnDefinition Width="83*"/>
+            <ColumnDefinition Width="290*" />
+            <ColumnDefinition Width="151*"/>
+            <ColumnDefinition Width="28*"/>
             <ColumnDefinition  Width="27.999" />
             <ColumnDefinition Width="32.001"/>
         </Grid.ColumnDefinitions>
@@ -39,9 +40,9 @@
             <RowDefinition Height="60"  />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <Image Grid.Row="0" Grid.Column="7"  Source="\\dtp1331\SHARE\PinnacleLogos\2021-10-07_16-25-41.png" Stretch="Fill" Grid.ColumnSpan="2" Margin="0.499,0,-0.499,0"></Image>
+        <Image Grid.Row="0" Grid.Column="8"  Source="\\dtp1331\SHARE\PinnacleLogos\2021-10-07_16-25-41.png" Stretch="Fill" Grid.ColumnSpan="2"/>
 
-        <dx:DXTabControl  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="9" Margin="0,0,-0.499,0" SelectionChanged="DXTabControl_SelectionChanged" >
+        <dx:DXTabControl  Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="10" SelectionChanged="DXTabControl_SelectionChanged" >
             <dx:DXTabControl.View>
                 <dx:TabControlStretchView/>
             </dx:DXTabControl.View>
