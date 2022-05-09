@@ -38,6 +38,8 @@ namespace DevExpressApplication
             InitializeComponent();
             employeeInformationList = new ObservableCollection<EmployeeInformation>();
             genderInformationList = new ObservableCollection<GenderInformation>();
+
+            ApplicationThemeHelper.ApplicationThemeName = Theme.VS2010Name;//Theme.Office2010BlueName;Theme.Office2007BlueName; Theme.MetropolisLightName;Theme.LightGrayName; Theme.Win10LightName;Theme.Win10LightName;Theme.VS2019LightName; Theme.VS2019BlueName;Theme.VS2017LightName;Theme.VS2010Name;Theme.VS2017BlueName
         }
         public void CreateColumn()
         {

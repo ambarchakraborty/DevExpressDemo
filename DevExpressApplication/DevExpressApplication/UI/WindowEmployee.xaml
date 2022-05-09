@@ -6,8 +6,9 @@
     xmlns:Model="clr-namespace:DevExpressApplication.Model" xmlns:ComponentModel="clr-namespace:System.ComponentModel;assembly=WindowsBase" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
     xmlns:System="clr-namespace:System;assembly=mscorlib"
     x:Class="DevExpressApplication.WindowEmployee"
-    Title="Demo UI" Height="800" Width="1000" Loaded="ThemedWindow_Loaded" TitleAlignment="Center" WindowStyle="ToolWindow" WindowKind="Auto" Icon="{dx:DXImage SvgImages/XAF/FilterEditor_User.svg}" WindowStartupLocation="CenterScreen"
-    >
+    Title="Demo UI" Height="800" Width="1000" Loaded="ThemedWindow_Loaded" TitleAlignment="Center" WindowStyle="ToolWindow" WindowKind="Auto"
+                 Icon="{dx:DXImage SvgImages/XAF/FilterEditor_User.svg}" WindowStartupLocation="CenterScreen" 
+                >
 
     <dx:ThemedWindow.Resources>
         <CollectionViewSource x:Key="CollectionViewSource" Culture="en-US" CollectionViewType="{x:Type ListCollectionView}">
